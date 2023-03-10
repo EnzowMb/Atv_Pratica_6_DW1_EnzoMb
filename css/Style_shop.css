@@ -1,0 +1,77 @@
+.corpoPagina {
+    background-color: black;
+}
+.cabecalho {
+    padding: 20px;
+}
+
+.cabecalho > .titulo {
+    color: yellowgreen;
+    padding: 20px;
+    font-family: Helvetica;
+    font-size: 60px;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 2px;
+    display: inline; /* Nao pular a linha */
+}
+
+.Twitter, .Instagram {
+    padding: 35px 20px;
+}
+
+.cabecalho:hover {
+    background-image: url(../nota.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-color: black;
+}
+
+.nav {
+    text-align: center;
+    padding: 50px;
+}
+
+.nav > .links_nav {
+    color: white;
+    text-decoration: none;
+    font-size: 35px;
+    padding: 10px 40px 0px 0px;
+    font-family: 'Gill Sans';
+}
+
+.links_nav:hover {
+    font-style: italic;
+}
+
+.titulo {
+    font-family: 'Segoe UI';
+    color: yellowgreen;
+    font-size: 60px;
+    text-align: center;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 2px;
+}
+
+.tabela, th, td {
+    background-color: blanchedalmond;
+    color: black;
+    border: 3px solid aqua;
+    margin: auto;
+}
+
+.produtos {
+    font-family: 'Lucida Sans';
+    font-size: 25px;
+    text-align: center;
+}
+
+.botoes {
+    font-size: 15px;
+}
+
+.rodape {
+    padding: 20px;
+    font-size: 20px;
+    color: azure;
+}

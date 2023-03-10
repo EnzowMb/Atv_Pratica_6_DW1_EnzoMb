@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Músicas</title>
+</head>
+
+<style>
+
+.corpoPagina {
+    background-color: black;
+}
+.cabecalho {
+    padding: 20px;
+}
+
+.cabecalho > .titulo {
+    color: yellowgreen;
+    padding: 20px;
+    font-family: Helvetica;
+    font-size: 60px;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 2px;
+    display: inline; /* Nao pular a linha */
+}
+
+.Twitter, .Instagram {
+    padding: 35px 20px;
+}
+
+.cabecalho:hover {
+    background-image: url(../nota.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-color: black;
+}
+
+.nav {
+    text-align: center;
+    padding: 50px;
+}
+
+.nav > .links_nav {
+    color: white;
+    text-decoration: none;
+    font-size: 35px;
+    padding: 10px 40px 0px 0px;
+    font-family: 'Gill Sans';
+}
+
+.links_nav:hover {
+    font-style: italic;
+}
+
+.titulo {
+    font-family: 'Segoe UI';
+    color: yellowgreen;
+    font-size: 60px;
+    text-align: center;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 2px;
+}
+
+.video {
+    margin: auto;
+    padding: 10px;
+}
+
+.titulo_musica {
+    font-family: 'Courier New';
+    color: aliceblue;
+    padding: 30px;
+}
+
+.titulo_apresentacao {
+    font-family: 'Segoe UI';
+    color: bisque;
+    padding: 100px;
+    text-align: center;
+}
+
+.titulo_ap {
+    font-family: 'Courier New';
+    color: aliceblue;
+    padding: 30px;
+}
+
+.rodape {
+    padding: 20px;
+    font-size: 20px;
+    color: azure;
+}
+
+</style>
+
+<body class="corpoPagina">
+
+    <header class="cabecalho">
+
+        <h1 class="titulo">Adriana Calcanhotto</h1>
+
+        <a href="https://twitter.com/lacalcanhotto?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><img class="Twitter" src="../Imagens/Redes Sociais/twitter.png" alt="Twitter" height="40" align="right"></a>
+
+        <a href="https://www.instagram.com/adrianacalcanhotto/" target="_blank"><img class="Instagram" src="../Imagens/Redes Sociais/instagram.png" alt="Instagram" height="40" align="right"></a>
+
+    </header>
+
+    <nav class="nav">
+        <a class="links_nav" href="index_sobre.html">Sobre</a>
+        <a class="links_nav" href="musica.html">Músicas</a>
+        <a class="links_nav" href="shop.html">Shop</a>
+    </nav>
+
+    <h1 class="titulo">Musicas</h1>
+
+    <h2 class="titulo_musica">Adriana Calcanhotto - Vambora</h2>
+    
+    <video class="video" width="800" height="400" controls>
+        <source src="../Musicas/Adriana Calcanhotto - Vambora.mp4" type="video/mp4">
+        Seu browser não suporta o video.
+    </video>
+
+    <h2 class="titulo_musica">Adriana Calcanhotto - Fico Assim Sem Você</h2>
+
+    <video class="video" width="800" height="400" controls>
+        <source src="../Musicas/Adriana Calcanhotto - Fico Assim Sem Você.mp4" type="video/mp4">
+        Seu browser não suporta o video.
+    </video>
+
+    <h2 class="titulo_musica">Adriana Calcanhotto - Mais Feliz</h2>
+
+    <video class="video" width="800" height="400" controls>
+        <source src="../Musicas/Adriana Calcanhotto - Mais Feliz.mp4" type="video/mp4">
+        Seu browser não suporta o video.
+    </video>
+
+    <h1 class="titulo_apresentacao">Apresentações ao vivo</h1>
+
+    <h2 class="titulo_ap">Apresentação: Devolva-me</h2>
+
+    <video class="video" width="800" height="400" controls>
+        <source src="../Apresentações/Ap-Devolva-me.mp4" type="video/mp4">
+        Seu browser não suporta o video.
+    </video>
+
+    <h2 class="titulo_ap">Apresentação: Esquadros</h2>
+
+    <video class="video" width="800" height="400" controls>
+        <source src="../Apresentações/Ap-Esquadros.mp4" type="video/mp4">
+        Seu browser não suporta o video.
+    </video>
+
+    <h2 class="titulo_ap">Apresentação: Mentiras</h2>
+
+    <video class="video" width="800" height="400" controls>
+        <source src="../Apresentações/Ap-Mentiras.mp4" type="video/mp4">
+        Seu browser não suporta o video.
+    </video>
+
+    <!-- Esta dando erro!! -->
+    <!-- <iframe width="400" height="400" src="https://www.youtube.com/watch?v=Hsmp8yR-AK8&ab_channel=acalcanhottoVEVO" ></iframe> -->
+
+    <hr>
+    <footer class="rodape">
+        ©Copyright Todos os direitos reservados a Adriana Calcanhotto
+    </footer>
+
+</body>
+</html>

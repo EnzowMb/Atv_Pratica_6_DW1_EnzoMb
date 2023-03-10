@@ -1,0 +1,107 @@
+.corpoPagina {
+    background-color: black;
+}
+.cabecalho {
+    padding: 20px;
+}
+
+.cabecalho > .titulo {
+    color: yellowgreen;
+    padding: 20px;
+    font-family: Helvetica;
+    font-size: 60px;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 2px;
+    display: inline; /* Nao pular a linha */
+}
+
+.Twitter, .Instagram {
+    padding: 35px 20px;
+}
+
+.cabecalho:hover {
+    background-image: url(../nota.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-color: black;
+}
+
+.nav {
+    text-align: center;
+    padding: 50px;
+}
+
+.nav > .links_nav {
+    color: white;
+    text-decoration: none;
+    font-size: 35px;
+    padding: 10px 40px 0px 0px;
+    font-family: 'Gill Sans';
+}
+
+.links_nav:hover {
+    font-style: italic;
+}
+
+.conteudo > .titulo {
+    font-size: 55px;
+    color: whitesmoke;
+    padding: 10px;
+}
+
+.conteudo > .info {
+    color: bisque;
+    font-size: 30px;
+    padding: 30px;
+}
+
+.conteudo > .bio {
+    font-size: 20px;
+    color: whitesmoke;
+    padding: 10px;
+}
+
+.conteudo > .relevancia {
+    font-size: 30px;
+    color: blanchedalmond;
+    padding: 20px;
+}
+
+.conteudo > .titulo_curiosidade {
+    font-size: 50px;
+    color: azure;
+    padding: 20px;
+    text-align: center;
+}
+
+.conteudo > .curiosidades {
+    font-size: 30px;
+    color: aquamarine;
+    padding: 50px;
+}
+
+.conteudo > .premio_titulo {
+    font-size: 50px;
+    color: azure;
+    padding: 20px;
+    text-align: center;
+}
+
+.conteudo > .tabela, th, td {
+    background-color: blanchedalmond;
+    color: black;
+    border: 3px solid aqua;
+    margin: auto;
+}
+
+.conteudo > .titulo_tabela {
+    font-size: 30px;
+    color: azure;
+}
+
+.rodape {
+    padding: 20px;
+    font-size: 20px;
+    color: azure;
+}
